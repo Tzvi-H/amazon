@@ -1,0 +1,19 @@
+{
+  "name": "AddToCart",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Add items to amazon cart",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "AddToCart!",
+    "default_icon": "addToCart.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

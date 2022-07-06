@@ -1,0 +1,19 @@
+{
+  "name": "SubmitOrder",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Submits the order (on the last page)",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Submit!",
+    "default_icon": "submit.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Checkout",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Clicks the checkout button",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Checkout!",
+    "default_icon": "checkout.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
