@@ -1,3 +1,4 @@
 (function () {
-  document.querySelector("#signInSubmit").click();
+  const input = document.querySelector("#signInSubmit");
+  if (input) input.click();
 })();
