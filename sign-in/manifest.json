@@ -1,0 +1,19 @@
+{
+  "name": "SignIn",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Clicks the sign in button",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "SignIn!",
+    "default_icon": "signin.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
