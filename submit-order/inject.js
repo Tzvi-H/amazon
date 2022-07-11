@@ -21,7 +21,9 @@
       if (freeShippingInput.checked) {
         clickSubmit();
       } else {
-        freeShippingInput.click();
+        document
+          .querySelector(".shipping-speeds input[value='second']")
+          .click();
         setTimeout(clickSubmit, 4000);
       }
     }, 7000);
