@@ -21,7 +21,7 @@
       if (freeShippingInput.checked) {
         clickSubmit();
       } else {
-        document.querySelector(".shipping-speed > input").click();
+        document.querySelector(".shipping-speed.a-radio input").click();
         setTimeout(clickSubmit, 4000);
       }
     }, 7000);
